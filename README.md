@@ -137,6 +137,7 @@ Taking into consideration the popularity of the stations for casual riders, comp
 #### I. Data Preparation
 
 ```SELECT
+  SELECT
   COUNT(ride_id) AS ride_id,
   COUNT(rideable_type) AS rideable_id,
   COUNT(started_at) AS started_at,
@@ -245,7 +246,8 @@ FROM `cyclists-case-study-400507.2022.Cyclist_2022_cleaned`
 
 #### K. Data Analysis
 
-```SELECT member_casual, COUNT(*) as total_trips
+```SELECT
+SELECT member_casual, COUNT(*) as total_trips
 FROM `cyclists-case-study-400507.2022.Cyclist_2022_cleaned`
 GROUP BY member_casual
 ORDER BY total_trips
