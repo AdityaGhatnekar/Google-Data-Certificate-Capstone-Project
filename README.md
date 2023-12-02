@@ -1,4 +1,4 @@
-## Google Data Certificate Capstone Project
+## Google Data Analytics Certificate Capstone Project
 
 ### Case Study Summary
 
